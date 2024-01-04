@@ -18,8 +18,8 @@ int _strcmp(char *s1, char *s2)
 
 	if (i < j)
 		return (-15);
-	else if (i == j)
-		return (0);
-	else
+	else if (i > j)
 		return (15);
+	else
+		return (0);
 }
