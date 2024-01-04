@@ -11,7 +11,10 @@ int _strcmp(char *s1, char *s2)
 {
 	int i, j;
 
-	for (i = 0; s1[i] && s2[i] && j == 0; i++)
+	i = 0;
+	j = 0;
+
+	while (s1[i] && s2[i] && j == 0; i++)
 	{
 		j = s1[i] - s2[i];
 		i++;
