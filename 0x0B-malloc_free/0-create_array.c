@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * create_array - creates an array of chars and initializes it with a spacific char
+ * create_array - creates an array of chars and initializes
+ * it with a spacific char
  * @size: the size of the array
  * @c: the character
  *
@@ -18,11 +19,7 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	if (ptr == NULL)
 		return (NULL);
-	else
-	{
-		for (i = 0; i < size; i++)
-			ptr[i] = c;
-		return (ptr);
-	}
+	for (i = 0; i < size; i++)
+		ptr[i] = c;
+	return (ptr);
 }
-	
