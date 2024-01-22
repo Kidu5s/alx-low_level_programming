@@ -3,7 +3,14 @@
 
 #include <stdio.h>
 
-struct dog {
+/**
+ * struct dog - a stucture hold a name age and owner
+ * @name: the name
+ * @age: the age
+ * @owner: the owner
+ */
+struct dog
+{
 	char *name;
 	float age;
 	char *owner;
