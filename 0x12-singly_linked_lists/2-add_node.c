@@ -1,6 +1,5 @@
 #include "lists.h"
 
-size_t _strlen(char *str);
 /**
  * add_node - adds a new node at the beginning of a lists_t list
  * @head: the first of the list

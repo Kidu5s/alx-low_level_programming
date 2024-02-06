@@ -25,5 +25,6 @@ list_t *add_node(list_t **head, const char *str);
 list_t *add_node_end(list_t **head, const char *str);
 size_t _strlen(char *ptr);
 void free_list(list_t *head);
+size_t _strlen(char *str);
 
 #endif /* LISTS_H */
