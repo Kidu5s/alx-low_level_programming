@@ -40,7 +40,7 @@ list_t *add_node_end(list_t **head, const char *str)
 }
 
 /**
- * strlen - finds the length of a string
+ * _strlen - finds the length of a string
  * @ptr: the string
  *
  * Return: the length of the string
