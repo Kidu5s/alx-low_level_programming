@@ -2,7 +2,7 @@
 
 /**
  * get_endianness - Checks the systems bytes order
- * 
+ *
  * Return: 0 if big endian 1 if little endian
  */
 int get_endianness(void)
@@ -14,4 +14,3 @@ int get_endianness(void)
 	little_or_big = (int) (((char *)&x)[0]);
 	return (little_or_big);
 }
-
